@@ -3,6 +3,7 @@ FROM node:6-onbuild
 RUN mkdir /workdir
 COPY . /workdir
 
+RUN cd /workdir
 RUN npm install
 RUN chmod +x run.sh
 
