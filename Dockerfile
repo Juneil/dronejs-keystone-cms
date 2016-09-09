@@ -10,5 +10,4 @@ ADD run.sh run.sh
 RUN chmod +x run.sh
 
 COPY . .
-CMD ["start"]
 ENTRYPOINT ["./run.sh"]
