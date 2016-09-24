@@ -1,6 +1,6 @@
 FROM node:6-onbuild
 
-COPY .
+COPY . .
 ADD run.sh run.sh
 RUN chmod +x run.sh
 
