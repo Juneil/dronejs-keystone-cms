@@ -33,7 +33,13 @@ keystone.init({
 	'auth': true,
 	'user model': 'User',
 	'wysiwyg cloudinary images': true,
-	'wysiwyg additional plugins': 'codesample'
+	'wysiwyg additional plugins': 'codesample',
+	'wysiwyg additional buttons': 'codesample',
+	'wysiwyg additional options': {
+		external_plugins: {
+		    'codesample':'/js/tinymce/plugin.min.js'
+	        }
+	}
 });
 
 // Load your project's Models
