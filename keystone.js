@@ -37,7 +37,7 @@ keystone.init({
 	'wysiwyg additional buttons': 'codesample',
 	'wysiwyg additional options': {
 		external_plugins: {
-		    'codesample':'/js/tinymce/plugin.min.js'
+		    'codesample':'/js/tinymce/plugins/codesample/plugin.min.js'
 	        }
 	}
 });
