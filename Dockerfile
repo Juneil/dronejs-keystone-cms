@@ -1,8 +1,10 @@
 FROM node:6-onbuild
 
-RUN npm install
+COPY .
 ADD run.sh run.sh
 RUN chmod +x run.sh
+
+RUN npm install
 
 EXPOSE 8080
 ENV PORT 8080
